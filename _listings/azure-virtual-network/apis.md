@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Application Gateways
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/application-gateways/master/_listings/azure-virtual-network/apis.md
 specificationVersion: "0.14"
 apis:
@@ -40,6 +40,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/application-gateways/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkapplicationgatewaysapplicationgatewayname-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/application-gateways/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkapplicationgatewaysapplicationgatewayname-get-openapi.md
+- name: NetworkManagementClient - Application Gateways Create Or Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkapplicationgatewaysapplicationgatewayname-put
+  description: Creates or updates the specified application gateway.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-network-topology.png
+  humanURL: https://azure.microsoft.com/en-us/services/virtual-network/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Stack Network, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/application-gateways/master/_listings/azure-virtual-network/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkapplicationgatewaysapplicationgatewayname-put-openapi.md
 - name: NetworkManagementClient - Application Gateways List
   x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkapplicationgateways-get
   description: Lists all application gateways in a resource group.

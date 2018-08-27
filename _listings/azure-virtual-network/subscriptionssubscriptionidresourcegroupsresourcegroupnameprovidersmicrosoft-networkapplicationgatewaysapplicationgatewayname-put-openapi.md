@@ -3,8 +3,8 @@ swagger: "2.0"
 x-collection-name: Azure Virtual Network
 x-complete: 0
 info:
-  title: Azure Virtual Network API Application Gateways List All
-  description: Gets all the application gateways in a subscription.
+  title: Azure Virtual Network API Application Gateways Create Or Update
+  description: Creates or updates the specified application gateway.
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -74,37 +74,6 @@ paths:
       - in: path
         name: resourceGroupName
         description: The name of the resource group
-      responses:
-        200:
-          description: OK
-      tags:
-      - Application Gateways
-  /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/applicationGateways:
-    get:
-      summary: Application Gateways List
-      description: Lists all application gateways in a resource group.
-      operationId: ApplicationGateways_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-networkapplicationgateways-get
-      parameters:
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The name of the resource group
-      responses:
-        200:
-          description: OK
-      tags:
-      - Application Gateways
-  /subscriptions/{subscriptionId}/providers/Microsoft.Network/applicationGateways:
-    get:
-      summary: Application Gateways List All
-      description: Gets all the application gateways in a subscription.
-      operationId: ApplicationGateways_ListAll
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-networkapplicationgateways-get
-      parameters:
-      - in: query
-        name: No Name
       responses:
         200:
           description: OK
